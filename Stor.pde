@@ -47,7 +47,7 @@ public class Stor {
     enter = loadImage("btn/enter.png");
     space = loadImage("btn/space.png");
 
-    buttons = loadImage("buttons-sml.png");
+    buttons = loadImage("buttons.png");
     skeld = loadImage("skeld.png");
 
     playAgain = loadImage("play-again.png");
@@ -70,5 +70,8 @@ public class Stor {
     // * LOAD MOVIES
     Mwinner = new Gif(p, "victory.gif");
     Mdefeat = new Gif(p, "defeat.gif");
+
+    Mwinner.noLoop();
+    Mdefeat.noLoop();
   }
 }
