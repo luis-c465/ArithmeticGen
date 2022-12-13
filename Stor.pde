@@ -31,7 +31,6 @@ public class Stor {
   // * SOUNDS
 
   // * FONTS
-  public PFont mono;
   public PFont nunito;
 
   // * MOVIES
@@ -64,7 +63,6 @@ public class Stor {
     // * LOAD SOUNDS
 
     // * LOAD FONTS
-    mono = createFont("fonts/ThaleahFat.ttf", 64);
     nunito = createFont("fonts/Nunito.ttf", 64);
 
     // * LOAD MOVIES
